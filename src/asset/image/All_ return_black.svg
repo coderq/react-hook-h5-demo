@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>All_ return_black@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="橙-注册/登录-验证码填写" transform="translate(-12.000000, -32.000000)" fill-rule="nonzero">
+            <g id="All_-return_black" transform="translate(12.000000, 32.000000)">
+                <g>
+                    <g>
+                        <rect id="矩形" fill="#FFFFFF" opacity="0" x="2" y="2" width="22" height="22"></rect>
+                        <circle id="椭圆形" cx="13" cy="13" r="13"></circle>
+                        <path d="M16.1190477,21 C15.8953887,21 15.6717296,20.9155733 15.5001,20.7467199 L8.26194966,13.6247447 C8.09442392,13.4597491 8,13.2351801 8,13.0003179 C8,12.7654556 8.09442392,12.5408866 8.26194966,12.375891 L15.5001,5.25347132 C15.8461605,4.91274234 16.4040503,4.91574679 16.7457749,5.26118688 C17.0877137,5.60618253 17.0843057,6.16161379 16.7380312,6.50232499 L10.1345659,13.0003179 L16.7380312,19.4978663 C17.0842879,19.8385775 17.0877137,20.3940087 16.7457749,20.7390044 C16.5735209,20.9129955 16.3464003,21 16.1190477,21 Z" id="路径" fill="#FDA90D"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

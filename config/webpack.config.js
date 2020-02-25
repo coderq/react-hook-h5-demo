@@ -77,7 +77,7 @@ module.exports = function(webpackEnv) {
     : isEnvDevelopment && '';
   // Get environment variables to inject into our app.
   const env = getClientEnvironment(publicUrl);
-
+  console.log('----env', env)
   // common function to get style loaders
   const getStyleLoaders = (cssOptions, preProcessor) => {
     const loaders = [
@@ -304,6 +304,17 @@ module.exports = function(webpackEnv) {
           'scheduler/tracing': 'scheduler/tracing-profiling',
         }),
         ...(modules.webpackAliases || {}),
+
+        src: paths.appSrc,
+        api: paths.appApi,
+        asset: paths.appAsset,
+        component: paths.appComponent,
+        page: paths.appPage,
+        route: paths.appRoute,
+        store: paths.appStore,
+        style: paths.appStyle,
+        util: paths.appUtil,
+        i18n: paths.appI18n
       },
       plugins: [
         // Adds support for installing with Plug'n'Play, leading to faster installs and adding

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Permissions_phone@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="橙-权限获取-拒绝" transform="translate(-85.000000, -591.000000)" fill-rule="nonzero">
+            <g id="5" transform="translate(0.000000, 576.000000)">
+                <g id="授权页-手机" transform="translate(85.000000, 15.000000)">
+                    <g id="Permissions_phone">
+                        <g>
+                            <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                            <rect id="矩形" stroke="#47D2D6" stroke-width="1.5" x="4.75" y="2.75" width="14.5" height="18.5" rx="4"></rect>
+                            <line x1="5" y1="15" x2="19" y2="15" id="路径-4" stroke="#47D2D6" stroke-width="1.5"></line>
+                            <circle id="椭圆形" fill="#47D2D6" cx="12" cy="18" r="1"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

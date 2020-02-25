@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>User_bank card@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="橙-个人中心" transform="translate(-32.000000, -258.000000)" fill-rule="nonzero">
+            <g id="part2" transform="translate(16.000000, 181.000000)">
+                <g id="Relationship" transform="translate(0.000000, 64.000000)">
+                    <g id="个人中心-银行卡" transform="translate(16.000000, 13.000000)">
+                        <g id="User_bank-card">
+                            <rect id="矩形" fill="#FF8F8F" opacity="0" x="0" y="0" width="28" height="28"></rect>
+                            <g id="银行卡" transform="translate(2.000000, 2.000000)" fill="#47D2D6">
+                                <rect id="矩形" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                                <path d="M15.75,16.5 L18.75,16.5 C19.2,16.5 19.5,16.2 19.5,15.75 C19.5,15.3 19.2,15 18.75,15 L15.75,15 C15.3,15 15,15.3 15,15.75 C15,16.2 15.3,16.5 15.75,16.5 Z" id="路径"></path>
+                                <path d="M21,3 L3,3 C1.725,3 0.75,3.975 0.75,5.25 L0.75,18.75 C0.75,20.025 1.725,21 3,21 L21,21 C22.275,21 23.25,20.025 23.25,18.75 L23.25,5.25 C23.25,3.975 22.275,3 21,3 Z M21.75,18.75 C21.75,19.2 21.45,19.5 21,19.5 L3,19.5 C2.55,19.5 2.25,19.2 2.25,18.75 L2.25,9 L21.75,9 L21.75,18.75 Z M21.75,7.5 L2.25,7.5 L2.25,5.25 C2.25,4.8 2.55,4.5 3,4.5 L21,4.5 C21.45,4.5 21.75,4.8 21.75,5.25 L21.75,7.5 Z" id="形状"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

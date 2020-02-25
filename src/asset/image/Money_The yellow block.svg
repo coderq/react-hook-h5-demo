@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="512px" viewBox="0 0 360 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Money_The yellow block@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="360" height="512"></rect>
+        <linearGradient x1="50%" y1="4.50824938%" x2="50%" y2="98.9527652%" id="linearGradient-3">
+            <stop stop-color="#FFB65B" offset="0%"></stop>
+            <stop stop-color="#F07C38" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="4.50824938%" x2="50%" y2="98.9527652%" id="linearGradient-4">
+            <stop stop-color="#FF9F19" offset="0%"></stop>
+            <stop stop-color="#FF8E02" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="4.50824938%" x2="50%" y2="98.9527652%" id="linearGradient-5">
+            <stop stop-color="#F0A438" offset="0%"></stop>
+            <stop stop-color="#FFAD02" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="橙-主页-放贷">
+            <g id="橙黄色圈圈色块">
+                <g id="Money_The-yellow-block">
+                    <g id="椭圆形-+-椭圆形-+-椭圆形-蒙版">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="蒙版" fill="#FFFFFF" fill-rule="nonzero" opacity="0" xlink:href="#path-1"></use>
+                        <circle id="椭圆形" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)" transform="translate(445.000000, -118.000000) scale(1, -1) translate(-445.000000, 118.000000) " cx="445" cy="-118" r="304"></circle>
+                        <circle id="椭圆形" fill="url(#linearGradient-4)" fill-rule="nonzero" mask="url(#mask-2)" cx="82" cy="208" r="304"></circle>
+                        <circle id="椭圆形" fill="url(#linearGradient-5)" fill-rule="nonzero" opacity="0.902367001" mask="url(#mask-2)" cx="-39" cy="76" r="304"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

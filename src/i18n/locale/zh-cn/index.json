@@ -1,0 +1,18 @@
+{
+  "translation": {
+    "logo": {
+      "text": "DigiKredit"
+    },
+    "form": {
+      "label": {
+        "otp": "请输入OTP"
+      },
+      "placeholder": {
+        "otp": "请输入OTP"
+      }
+    },
+    "basic": {
+      "confirm": "确定"
+    }
+  }
+}

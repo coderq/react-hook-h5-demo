@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Steps_Successful hook@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="橙-主页-放贷-当前状态" transform="translate(-22.000000, -572.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="进度" transform="translate(12.336667, 572.000000)">
+                <g id="步骤1" transform="translate(0.663333, 0.000000)">
+                    <g id="步骤-成功勾" transform="translate(9.000000, 0.000000)">
+                        <g id="Steps_Successful-hook">
+                            <rect id="矩形" opacity="0" x="0" y="0" width="42" height="42"></rect>
+                            <g id="成功" transform="translate(21.707107, 18.707107) rotate(-315.000000) translate(-21.707107, -18.707107) translate(17.707107, 10.707107)">
+                                <path d="M1,14 L8,14 L8,14 L8,16 L1,16 C0.44771525,16 2.27441311e-13,15.5522847 2.27373675e-13,15 C2.2730604e-13,14.4477153 0.44771525,14 1,14 Z" id="矩形"></path>
+                                <path d="M7,-2.27373675e-13 C7.55228475,-2.27475129e-13 8,0.44771525 8,1 L8,16 L8,16 L6,16 L6,1 C6,0.44771525 6.44771525,-2.27272222e-13 7,-2.27373675e-13 Z" id="矩形"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="304px" height="159px" viewBox="0 0 304 159" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>bank card@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-9.7%" y="-18.6%" width="119.4%" height="137.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M8,0 L296,0 C300.418278,-8.11624501e-16 304,3.581722 304,8 L304,151 C304,155.418278 300.418278,159 296,159 L8,159 C3.581722,159 5.41083001e-16,155.418278 0,151 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z" id="path-2"></path>
+        <path d="M304,0 L304,159 L0,159 L0,0 L304,0 Z" id="path-4"></path>
+        <rect id="path-6" x="0" y="0" width="304" height="389"></rect>
+        <linearGradient x1="50%" y1="4.50824938%" x2="50%" y2="98.9527652%" id="linearGradient-8">
+            <stop stop-color="#F6F6F6" offset="0%"></stop>
+            <stop stop-color="#C7C7C7" offset="99.9234586%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="4.50824938%" x2="50%" y2="98.9527652%" id="linearGradient-9">
+            <stop stop-color="#F3F3F3" offset="0%"></stop>
+            <stop stop-color="#EBEBEB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="4.50824938%" x2="50%" y2="98.9527652%" id="linearGradient-10">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EFEFEF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M8,0 L296,0 C300.418278,-8.11624501e-16 304,3.581722 304,8 L304,151 C304,155.418278 300.418278,159 296,159 L8,159 C3.581722,159 5.41083001e-16,155.418278 0,151 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z" id="path-11"></path>
+    </defs>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="橙-个人中心-银行卡已绑定" transform="translate(-28.000000, -94.000000)">
+            <g id="银行卡" filter="url(#filter-1)" transform="translate(28.000000, 94.000000)">
+                <g id="XXX银行卡片底图">
+                    <g id="bank-card">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <path stroke="#D6D6D6" d="M8,0.5 C3.85786438,0.5 0.5,3.85786438 0.5,8 L0.5,151 C0.5,155.142136 3.85786438,158.5 8,158.5 L296,158.5 C300.142136,158.5 303.5,155.142136 303.5,151 L303.5,8 C303.5,3.85786438 300.142136,0.5 296,0.5 L8,0.5 Z"></path>
+                        <g id="User_The-yellow-block" mask="url(#mask-3)">
+                            <mask id="mask-5" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <g id="形状结合"></g>
+                            <g id="橙黄色圈圈色块" mask="url(#mask-5)">
+                                <g id="椭圆形-+-椭圆形-+-椭圆形-蒙版">
+                                    <g>
+                                        <mask id="mask-7" fill="white">
+                                            <use xlink:href="#path-6"></use>
+                                        </mask>
+                                        <use id="蒙版" fill="#FFFFFF" fill-rule="nonzero" opacity="0" xlink:href="#path-6"></use>
+                                        <ellipse id="椭圆形" fill="url(#linearGradient-8)" fill-rule="nonzero" mask="url(#mask-7)" transform="translate(375.777778, -89.652344) scale(1, -1) translate(-375.777778, 89.652344) " cx="375.777778" cy="-89.6523438" rx="256.711111" ry="230.96875"></ellipse>
+                                        <ellipse id="椭圆形" fill="url(#linearGradient-9)" fill-rule="nonzero" mask="url(#mask-7)" cx="69.2444444" cy="158.03125" rx="256.711111" ry="230.96875"></ellipse>
+                                        <ellipse id="椭圆形" fill="url(#linearGradient-10)" fill-rule="nonzero" opacity="0.902367001" mask="url(#mask-7)" cx="-32.9333333" cy="57.7421875" rx="256.711111" ry="230.96875"></ellipse>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <mask id="mask-12" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <path stroke="#D6D6D6" stroke-width="0.5" d="M8,0.25 C3.71979319,0.25 0.25,3.71979319 0.25,8 L0.25,151 C0.25,155.280207 3.71979319,158.75 8,158.75 L296,158.75 C300.280207,158.75 303.75,155.280207 303.75,151 L303.75,8 C303.75,3.71979319 300.280207,0.25 296,0.25 L8,0.25 Z"></path>
+                        <polygon id="矩形" fill="#EEEEEE" fill-rule="nonzero" mask="url(#mask-12)" points="20 92 284 92 284 96 20 96"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Navigation_ my_unactivation@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="橙-主页-未通过审核" transform="translate(-252.000000, -705.000000)">
+            <g id="底部导航" transform="translate(0.000000, 700.000000)">
+                <g id="我的" transform="translate(223.000000, 0.000000)">
+                    <g id="导航-我的" transform="translate(29.000000, 5.000000)">
+                        <g id="Navigation_-my_unactivation">
+                            <g id="编组-2">
+                                <rect id="矩形" fill="#D8D8D8" fill-rule="nonzero" opacity="0" x="0" y="0" width="32" height="32"></rect>
+                                <g id="人员链接添加" transform="translate(9.875000, 5.000000)" fill-rule="nonzero" stroke="#999999" stroke-width="1.5">
+                                    <path d="M8,12 C8.66548194,11.5289119 9.56312348,10.213852 10,9.5 C10.229174,9.12553194 10,9.5 10.5355735,8.57927743 C11,7.5 11,7.5 11,6.5 C10.9216792,6.2109525 10.5,6 10.3027819,5.93477289 C10.2426999,4.40354894 10.6016859,3.83544916 10,2.5 C9.33333333,1.0203252 8,0.18699187 6,0 C3,0 2.20781339,2.06666974 2,2.5 C2,2.5 1.66666667,4.12195122 1.67709959,4.32339586 C1.66338976,4.83810959 1.58142387,5.36087117 1.58142387,5.93477289 C1.5,6 1,6.5 1,6.5 C0.981588959,6.80707381 1,7 1.12351307,8.16181845 C1.29450438,8.64970961 1.62629033,9.03938929 2,9.5 C2.4566578,10.0373912 2.62915301,10.5841949 3.03498355,10.9907026 C3.1780137,11.1396125 3.80633948,11.9592962 4,12 C5.33333333,13.6666667 6.66666667,13.6666667 8,12 Z" id="形状"></path>
+                                </g>
+                                <g id="icon_我_nor" transform="translate(5.875000, 20.000000)" stroke="#999999" stroke-linecap="round" stroke-width="1.5">
+                                    <path d="M6.80524554,0 C3.99274554,3.39671194 0,2.82821914 0,6 L0,8 C0,9 1,10 2,10 L18,10 C19,10 20,9 20,8 L20,6 C20,3 16.680344,3.89574186 13.0552455,0" id="路径"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

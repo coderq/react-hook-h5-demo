@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Steps_failure@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="橙-主页-放贷-当前状态" transform="translate(-210.000000, -577.000000)" fill-rule="nonzero">
+            <g id="进度" transform="translate(12.336667, 572.000000)">
+                <g id="步骤3" transform="translate(174.663333, 5.000000)">
+                    <g id="步骤-失败" transform="translate(23.000000, 0.000000)">
+                        <g id="Steps_failure">
+                            <rect id="矩形" fill="#FFFFFF" opacity="0" x="0" y="0" width="32" height="32"></rect>
+                            <circle id="椭圆形" stroke="#FF7C61" stroke-width="4" fill="#FFFFFF" cx="16" cy="16" r="14"></circle>
+                            <path d="M16,8 C16.5522847,8 17,8.44771525 17,9 L17,18 C17,18.5522847 16.5522847,19 16,19 C15.4477153,19 15,18.5522847 15,18 L15,9 C15,8.44771525 15.4477153,8 16,8 Z" id="矩形" fill="#FF7C61"></path>
+                            <circle id="椭圆形" fill="#FF7C61" cx="16" cy="22" r="1"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

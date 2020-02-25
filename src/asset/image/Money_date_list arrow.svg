@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="7px" viewBox="0 0 14 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Money_date_list arrow@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="橙-主页-待借款" transform="translate(-137.000000, -121.000000)" fill="#FFFFFF">
+            <g id="编组-2" transform="translate(39.000000, 75.000000)">
+                <g id="还款页金额-日期-下拉箭头" transform="translate(98.000000, 46.000000)">
+                    <g id="Money_date_list-arrow">
+                        <path d="M7.41247896,0.412478956 L13.0041877,6.00418771 C13.2319935,6.23199355 13.2319935,6.60133979 13.0041877,6.82914562 C12.8947915,6.93854184 12.7464184,7 12.5917088,7 L1.40829124,7 C1.08612514,7 0.824957911,6.73883277 0.824957911,6.41666667 C0.824957911,6.26195705 0.886416068,6.11358393 0.995812289,6.00418771 L6.58752104,0.412478956 C6.81532688,0.184673119 7.18467312,0.184673119 7.41247896,0.412478956 Z" id="三角形" transform="translate(7.000000, 3.500000) rotate(-180.000000) translate(-7.000000, -3.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

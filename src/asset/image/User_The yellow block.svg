@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="209px" viewBox="0 0 360 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>User_The yellow block@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="19.1805105%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#01BFB8" offset="0%"></stop>
+            <stop stop-color="#4BD6AF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M360,0 L359.999,209 L0,209 L0,0 L360,0 Z" id="path-2"></path>
+        <rect id="path-4" x="0" y="0" width="360" height="512"></rect>
+        <linearGradient x1="50%" y1="4.50824938%" x2="50%" y2="98.9527652%" id="linearGradient-6">
+            <stop stop-color="#FFB65B" offset="0%"></stop>
+            <stop stop-color="#F07C38" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="4.50824938%" x2="50%" y2="98.9527652%" id="linearGradient-7">
+            <stop stop-color="#FF9F19" offset="0%"></stop>
+            <stop stop-color="#FF8E02" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="4.50824938%" x2="50%" y2="98.9527652%" id="linearGradient-8">
+            <stop stop-color="#F0A438" offset="0%"></stop>
+            <stop stop-color="#FFAD02" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="橙-个人中心">
+            <g id="个人中心黄色块">
+                <g id="User_The-yellow-block">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="形状结合" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <g id="橙黄色圈圈色块" mask="url(#mask-3)">
+                        <g id="椭圆形-+-椭圆形-+-椭圆形-蒙版">
+                            <g>
+                                <mask id="mask-5" fill="white">
+                                    <use xlink:href="#path-4"></use>
+                                </mask>
+                                <use id="蒙版" fill="#FFFFFF" fill-rule="nonzero" opacity="0" xlink:href="#path-4"></use>
+                                <circle id="椭圆形" fill="url(#linearGradient-6)" fill-rule="nonzero" mask="url(#mask-5)" transform="translate(445.000000, -118.000000) scale(1, -1) translate(-445.000000, 118.000000) " cx="445" cy="-118" r="304"></circle>
+                                <circle id="椭圆形" fill="url(#linearGradient-7)" fill-rule="nonzero" mask="url(#mask-5)" cx="82" cy="208" r="304"></circle>
+                                <circle id="椭圆形" fill="url(#linearGradient-8)" fill-rule="nonzero" opacity="0.902367001" mask="url(#mask-5)" cx="-39" cy="76" r="304"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Navigation_ hone_activation@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="橙-主页-未通过审核" transform="translate(-77.000000, -705.000000)">
+            <g id="底部导航" transform="translate(0.000000, 700.000000)">
+                <g id="首页" transform="translate(63.000000, 0.000000)">
+                    <g id="导航-首页" transform="translate(14.000000, 5.000000)">
+                        <g id="Navigation_-hone_activation">
+                            <g id="编组">
+                                <rect id="矩形" x="0" y="0" width="32" height="32"></rect>
+                                <path d="M17.3170092,4.15238306 L29.9970552,15.2474233 C30.4126918,15.6111054 30.4548093,16.242868 30.0911273,16.6585046 C29.9012392,16.8755196 29.6269132,17 29.3385506,17 L27.9994494,16.9995365 L28,28 C28,29.6568542 26.6568542,31 25,31 L7,31 C5.34314575,31 4,29.6568542 4,28 L3.9994494,16.9995365 L2.6614494,17 C2.10916465,17 1.6614494,16.5522847 1.6614494,16 C1.6614494,15.7116374 1.78592983,15.4373114 2.00294479,15.2474233 L14.6829908,4.15238306 C15.4370428,3.49258758 16.5629572,3.49258758 17.3170092,4.15238306 Z" id="形状结合" fill="#FDA90D"></path>
+                                <rect id="矩形" fill="#FFFFFF" fill-rule="nonzero" x="11" y="25" width="10" height="2" rx="1"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

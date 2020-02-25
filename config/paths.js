@@ -83,8 +83,16 @@ module.exports = {
   appNodeModules: resolveApp('node_modules'),
   publicUrl: getPublicUrl(resolveApp('package.json')),
   servedPath: getServedPath(resolveApp('package.json')),
+
+  appApi: resolveApp('src/api'),
+  appAsset: resolveApp('src/asset'),
+  appComponent: resolveApp('src/component'),
+  appPage: resolveApp('src/page'),
+  appRoute: resolveApp('src/route'),
+  appStore: resolveApp('src/store'),
+  appStyle: resolveApp('src/style'),
+  appUtil: resolveApp('src/util'),
+  appI18n: resolveApp('src/i18n')
 };
-
-
 
 module.exports.moduleFileExtensions = moduleFileExtensions;
