@@ -6,7 +6,7 @@
     position: absolute
     z-index: 1
   .body
-    padding: 0 rem(32px)
+    padding: 0
     position: absolute
     top: 0
     width: 100%
@@ -16,57 +16,24 @@
     align-items: center
     font-size: rem(14px)
     box-sizing: border-box
-    .img.logo
+    .logo
       margin-top: rem(78px)
-      width: 120px
-    .text.logo
-      color: #FF8E02
-      font-size: rem(20px)
     .form.auth
-      width: 100%
       margin-top: rem(70px)
+      padding: 0 rem(32px)
       text-align: left
-      .form-item
-        margin-top: rem(10px)
-        width: 100%
+      box-sizing: border-box  
+      .form-input-with-timer
         display: flex
-        flex-direction: column
-        &.button
-          margin-top: rem(24px)
-        .label
-          width: 100%
-          height: rem(18px)
-          line-height: rem(18px)
-        .input
-          position: relative
-          height: rem(36px)
-          margin-top: rem(6px)
-          border-bottom: rem(1px) solid #E6E6E6
-          overflow: hidden
-          input
-            width: 100%
-            height: 100%
-            border: none
-            font-size: rem(14px)
-            &::-webkit-input-placeholder
-              color: $placeholderColor
-              font-size: rem(14px)
-          .suffix
-            position: absolute
-            top: 0
-            right: 0
-            width: rem(40px)
-            height: 100%
-            display: flex
-            justify-content: center
-            align-items: center
-            color: $highlightColor
-        .btn
-          width: 100%
-          height: rem(48px)
-          background-color: $highlightColor
-          color: #ffffff
-          font-size: 16px
-          text-align: center
-          line-height: rem(48px)
-          border-radius: rem(4px)
+        font-size: rem(16px)
+        flex-direction: row
+        border-bottom: 0.001rem solid #E6E6E6
+        .form-input
+          flex: 1
+          border: none
+        .timer
+          width: rem(40px)
+          display: flex
+          justify-content: center
+          align-items: center
+          color: $highlightColor

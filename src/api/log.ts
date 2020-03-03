@@ -1,5 +1,6 @@
 
-import request from '@/utils/request';
+import { ApiFunction } from 'global';
+import request from 'util/request';
 
 /**
  * path: /log/crash-log
@@ -13,7 +14,7 @@ import request from '@/utils/request';
  * responses: 
    - 200 | OK
  */
-export const postCrashLog = data => request({
+export const postCrashLog: ApiFunction = data => request({
   url: '/log/crash-log',
   method: 'post',
   data

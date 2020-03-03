@@ -1,5 +1,6 @@
 
-import request from '@/utils/request';
+import { ApiFunction } from 'global';
+import request from 'util/request';
 
 /**
  * path: /callback/razorpay/repayResult
@@ -16,7 +17,7 @@ import request from '@/utils/request';
  * responses: 
    - 200 | OK
  */
-export const postRazorpayRepayResult = data => request({
+export const postRazorpayRepayResult: ApiFunction = data => request({
   url: '/callback/razorpay/repayResult',
   method: 'post',
   data

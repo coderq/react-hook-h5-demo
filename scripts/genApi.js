@@ -85,7 +85,7 @@ ${parametersFormator(parameters, definitions)}
  * responses: 
 ${responsesFormator(responses)}
  */
-export const ${name} = data => ${funcStr};
+export const ${name}: ApiFunction = data => ${funcStr};
 `;
 }
 
@@ -93,10 +93,11 @@ const writeFile = ({ data, definitions }) => {
   for (const business in data) {
     const apis = data[business];
     const fileContent = `
-import request from '@/utils/request';
+import { ApiFunction } from 'global';
+import request from 'util/request';
 ${apis.map(api => apiFormator({ ...api, business }, definitions)).join('\n')}
 `;
-    const file = path.resolve(__dirname, `../src/api/${business}.js`);
+    const file = path.resolve(__dirname, `../src/api/${business}.ts`);
     fs.writeFileSync(file, fileContent);
   }
 }

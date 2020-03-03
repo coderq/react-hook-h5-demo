@@ -1,0 +1,44 @@
+@import 'style/common.sass'
+
+.form-input
+  position: relative
+  height: rem(36px)
+  margin-top: rem(6px)
+  border-bottom: rem(1px) solid #E6E6E6
+  overflow: hidden
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+  align-items: center
+  .icon
+    width: rem(24px)
+    height: rem(24px)
+  .form-input-inner
+    display: flex
+    flex-direction: row
+    .form-input-prefix
+      position: relative
+      height: 100%
+      padding: 0 rem(12px) 0 rem(8px)
+      display: flex
+      justify-content: center
+      align-items: center
+      &:after
+        content: ' '
+        display: block
+        width: 2px
+        background-color: #99999933
+        height: 80%
+        position: absolute
+        bottom: 0
+        right: 0
+    input
+      flex: 1
+      height: 100%
+      border: none
+      font-size: rem(14px)
+      &.form-input-with-prefix
+        padding-left: rem(12px)
+      &::-webkit-input-placeholder
+        color: $placeholderColor
+        font-size: rem(14px)

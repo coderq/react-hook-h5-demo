@@ -1,23 +1,26 @@
 import './index.sass';
 import React from 'react';
+import HeaderBar from 'component/HeaderBar'
 import { getExistsByMobile } from 'api/security'
 import Form from 'component/Form';
 import FormItem from 'component/Form/Item'
 import Input from 'component/Form/Input';
-import Agreement from 'component/Form/Agreement'
 import Button from 'component/Form/Button';
+import Timer from 'component/Timer'
 import Logo from './component/logo'
+import { RefTimer } from 'component/Timer/type'
+
 const errorDefault = {
   mobile: '',
   otp: ''
 }
 const AuthPage = () => {
+  const refTimer:RefTimer = React.useRef(null)
   const [ mobile, setMobile ] = React.useState('')
   const [ step, setStep ] = React.useState(1)
   const [ error, setError ] = React.useState(errorDefault)
   
   async function handleNext() {
-    console.log('----step', step)
     setError(errorDefault)
     switch(step) {
       case 1: {
@@ -41,6 +44,7 @@ const AuthPage = () => {
   
   async function getCaptcha() {
     const res = await getExistsByMobile({ mobile })
+    console.log('----res', res)
     // if (res.code)
     return { succ: true, key: '' }
   }
@@ -57,18 +61,15 @@ const AuthPage = () => {
   }
 
   return <div className="pg auth">
+    <HeaderBar />
     <div className="body">
       <Logo />
       <Form className="auth">
-        <FormItem label="auth.form.mobile.label" error={error.mobile}>
-          <Input icon="mobile" prefix="+91" placeholder="auth.form.mobile.placeholder" onChange={handleChange('mobile')} />
-        </FormItem>
-        <FormItem>
-          <Agreement
-            label="auth.form.agreement.label"
-            href="auth.form.agreement.href"
-            link="/agreement"
-          />
+        <FormItem label="auth.form.captcha.label" error={error.otp}>
+          <div className="form-input-with-timer">
+            <Input onChange={handleChange('otp')} placeholder="auth.form.captcha.placeholder" />
+            <Timer ref={refTimer} start={60} end={0} second={60} suffix="s" />
+          </div>
         </FormItem>
         <FormItem>
           <Button onClick={handleNext} label="auth.form.button.next"/>

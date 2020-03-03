@@ -1,19 +1,19 @@
-export class UserStore {
-  firstName:String
-  lastName:String
-  age:Number
-  gender:Number
-  fullName:String
-  getUserInfo:() => {}
+import React from 'react';
+import { RouteComponentProps } from 'react-router-dom';
+import { AxiosPromise, AxiosResponse } from 'axios'
+
+export interface Props extends React.ComponentProps {
+  children?: JSX.Element[] | JSX.Element | React.ReactNode
+  className?: string
+  ref?: React.RefObject
 }
 
-export class Store {
-  user:UserStore
-}
+export interface RoutedProps extends Props, RouteComponentProps {}
 
-export interface BackendResponse {
+export type ApiResponse = {
   code: Number,
-  data: any,
+  data: Any,
   key?: String,
   msg?: String
 }
+export type ApiFunction = (data: Object) => AxiosPromise<ApiResponse>

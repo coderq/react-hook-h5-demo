@@ -6,18 +6,19 @@ import {
 } from "react-router-dom";
 import { I18nextProvider } from 'react-i18next';
 import { CookiesProvider } from 'react-cookie';
-import { Provider } from 'mobx-react';
-import store from 'store';
 import i18n from 'i18n';
-import Test from 'page/about';
+import Provider from 'store';
+// import About from 'page/about';
 import Home from 'page/home';
 import Auth from 'page/auth';
+import AuthCaptcha from 'page/auth/captcha'
+import Test from 'page/test';
 
 class App extends Component {
   render() {
     return <I18nextProvider i18n={i18n}>
       <CookiesProvider>
-        <Provider store={store}>
+        <Provider>
           <Router>
             <Switch>
               <Route exact path="/home">
@@ -28,6 +29,12 @@ class App extends Component {
               </Route>
               <Route exact path="/auth">
                 <Auth />
+              </Route>
+              <Route exact path="/auth/captcha">
+                <AuthCaptcha />
+              </Route>
+              <Route exact path="/test">
+                <Test />
               </Route>
             </Switch>
           </Router>

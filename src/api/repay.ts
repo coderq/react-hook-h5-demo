@@ -1,5 +1,6 @@
 
-import request from '@/utils/request';
+import { ApiFunction } from 'global';
+import request from 'util/request';
 
 /**
  * path: /repay/repay-order/detail
@@ -13,7 +14,7 @@ import request from '@/utils/request';
  * responses: 
    - 200 | OK
  */
-export const getRepayOrderDetail = data => request({
+export const getRepayOrderDetail: ApiFunction = data => request({
   url: '/repay/repay-order/detail',
   method: 'get',
   params: data
@@ -33,7 +34,7 @@ export const getRepayOrderDetail = data => request({
  * responses: 
    - 200 | OK
  */
-export const postRepayOrderGatewayRepay = data => request({
+export const postRepayOrderGatewayRepay: ApiFunction = data => request({
   url: '/repay/repay-order/gatewayRepay',
   method: 'post',
   data

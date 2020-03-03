@@ -1,4 +1,5 @@
 
+import { ApiFunction } from 'global';
 import request from 'util/request';
 
 /**
@@ -13,7 +14,7 @@ import request from 'util/request';
  * responses: 
    - 200 | OK
  */
-export const getExistsByMobile = data => request({
+export const getExistsByMobile: ApiFunction = data => request({
   url: '/security/existsByMobile',
   method: 'get',
   params: data
@@ -32,7 +33,7 @@ export const getExistsByMobile = data => request({
  * responses: 
    - 200 | OK
  */
-export const getGetUserInfo = data => request({
+export const getGetUserInfo: ApiFunction = data => request({
   url: '/security/getUserInfo',
   method: 'get',
   params: data
@@ -52,7 +53,7 @@ export const getGetUserInfo = data => request({
  * responses: 
    - 200 | OK
  */
-export const getGetVerifyCode = data => request({
+export const getGetVerifyCode: ApiFunction = data => request({
   url: '/security/getVerifyCode',
   method: 'get',
   params: data
@@ -73,7 +74,7 @@ export const getGetVerifyCode = data => request({
  * responses: 
    - 200 | OK
  */
-export const postModifyPassword = data => request({
+export const postModifyPassword: ApiFunction = data => request({
   url: '/security/modifyPassword',
   method: 'post',
   data
@@ -96,7 +97,7 @@ export const postModifyPassword = data => request({
  * responses: 
    - 200 | OK
  */
-export const postRegister = data => request({
+export const postRegister: ApiFunction = data => request({
   url: '/security/register',
   method: 'post',
   data
@@ -118,7 +119,7 @@ export const postRegister = data => request({
  * responses: 
    - 200 | OK
  */
-export const postResetPassword = data => request({
+export const postResetPassword: ApiFunction = data => request({
   url: '/security/resetPassword',
   method: 'post',
   data

@@ -1,15 +1,26 @@
 {
   "translation": {
+    "auth": {
+      "form": {
+        "mobile": {
+          "label": "Login/Register",
+          "placeholder": "Phone Number"
+        },
+        "captcha": {
+          "label": "Enter OTP we send to +91 88xx xx88",
+          "placeholder": "Enter OTP"
+        },
+        "agreement": {
+          "label": "Read and agree <<a href=\"{{link}}\">{{href}}</a>>",
+          "href": "Loan Service Protocol"
+        },
+        "button": {
+          "next": "Next"
+        }
+      }
+    },
     "logo": {
       "text": "DigiKredit"
-    },
-    "form": {
-      "label": {
-        "otp": "Enter OTP we send to +91 88xx xx88"
-      },
-      "placeholder": {
-        "otp": "Enter OTP"
-      }
     },
     "basic": {
       "confirm": "Confirm"

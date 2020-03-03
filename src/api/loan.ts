@@ -1,5 +1,6 @@
 
-import request from '@/utils/request';
+import { ApiFunction } from 'global';
+import request from 'util/request';
 
 /**
  * path: /loan/channel/detail
@@ -13,7 +14,7 @@ import request from '@/utils/request';
  * responses: 
    - 200 | OK
  */
-export const getChannelDetail = data => request({
+export const getChannelDetail: ApiFunction = data => request({
   url: '/loan/channel/detail',
   method: 'get',
   params: data
@@ -34,7 +35,7 @@ export const getChannelDetail = data => request({
  * responses: 
    - 200 | OK
  */
-export const postLoanOrderApply = data => request({
+export const postLoanOrderApply: ApiFunction = data => request({
   url: '/loan/loan-order/apply',
   method: 'post',
   data
@@ -57,7 +58,7 @@ export const postLoanOrderApply = data => request({
  * responses: 
    - 200 | OK
  */
-export const postLoanOrderConfirm = data => request({
+export const postLoanOrderConfirm: ApiFunction = data => request({
   url: '/loan/loan-order/confirm',
   method: 'post',
   data
@@ -76,7 +77,7 @@ export const postLoanOrderConfirm = data => request({
  * responses: 
    - 200 | OK
  */
-export const getLoanOrderLatest = data => request({
+export const getLoanOrderLatest: ApiFunction = data => request({
   url: '/loan/loan-order/latest',
   method: 'get',
   params: data
@@ -95,7 +96,7 @@ export const getLoanOrderLatest = data => request({
  * responses: 
    - 200 | OK
  */
-export const getLoanOrderList = data => request({
+export const getLoanOrderList: ApiFunction = data => request({
   url: '/loan/loan-order/list',
   method: 'get',
   params: data
@@ -116,7 +117,7 @@ export const getLoanOrderList = data => request({
  * responses: 
    - 200 | OK
  */
-export const getLoanOrderLoanAgreement = data => request({
+export const getLoanOrderLoanAgreement: ApiFunction = data => request({
   url: '/loan/loan-order/loanAgreement',
   method: 'get',
   params: data
@@ -135,7 +136,7 @@ export const getLoanOrderLoanAgreement = data => request({
  * responses: 
    - 200 | OK
  */
-export const getProductList = data => request({
+export const getProductList: ApiFunction = data => request({
   url: '/loan/product/list',
   method: 'get',
   params: data

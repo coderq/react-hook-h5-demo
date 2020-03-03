@@ -1,10 +1,11 @@
-import UserStore from './user'
+import React from 'react';
+import { Props } from 'global';
+import providers from './providers';
 
-class Store {
-  user: Object|null = new UserStore()
-  // constructor() {
-  //   this.user = new UserStore()
-  // }
-}
+const Provider = (props: Props): any =>
+  providers.reduceRight(
+    (children, Parent) => <Parent>{children}</Parent>,
+    props.children
+  );
 
-export default new Store()
+export default Provider;

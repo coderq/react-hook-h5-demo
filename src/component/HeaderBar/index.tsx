@@ -1,24 +1,12 @@
-import React, { Component } from 'react';
-import { RouteComponentProps, withRouter } from "react-router";
-import { inject, observer } from 'mobx-react';
-import { Store } from 'global';
 import './index.sass';
+import React from 'react';
+import { useHistory } from "react-router-dom";
 
-interface IProps extends RouteComponentProps {
-  store?: Store
-}
-interface IState {
-
-}
-
-@inject('store')
-@observer
-class HeaderBar extends Component<Readonly<IProps>, IState> {
-  render() {
-    return <div className="nav header">
-      <div className="btn return"></div>
+const HeaderBar = () => {
+  const history = useHistory()
+  return <div className="nav header">
+      <div className="btn btn-return" onClick={() => history.goBack()}></div>
     </div>
-  }
 }
 
-export default withRouter(HeaderBar);
+export default HeaderBar;

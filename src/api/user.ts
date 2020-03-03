@@ -1,5 +1,6 @@
 
-import request from '@/utils/request';
+import { ApiFunction } from 'global';
+import request from 'util/request';
 
 /**
  * path: /user/addBankCard
@@ -15,7 +16,7 @@ import request from '@/utils/request';
  * responses: 
    - 200 | OK
  */
-export const postAddBankCard = data => request({
+export const postAddBankCard: ApiFunction = data => request({
   url: '/user/addBankCard',
   method: 'post',
   data
@@ -35,7 +36,7 @@ export const postAddBankCard = data => request({
  * responses: 
    - 200 | OK
  */
-export const getGetBankBranch = data => request({
+export const getGetBankBranch: ApiFunction = data => request({
   url: '/user/getBankBranch',
   method: 'get',
   params: data
@@ -56,7 +57,7 @@ export const getGetBankBranch = data => request({
  * responses: 
    - 200 | OK
  */
-export const postGetBindCardResult = data => request({
+export const postGetBindCardResult: ApiFunction = data => request({
   url: '/user/getBindCardResult',
   method: 'post',
   data
@@ -75,7 +76,7 @@ export const postGetBindCardResult = data => request({
  * responses: 
    - 200 | OK
  */
-export const getIdentityCard = data => request({
+export const getIdentityCard: ApiFunction = data => request({
   url: '/user/identity-card',
   method: 'get',
   params: data
@@ -94,7 +95,7 @@ export const getIdentityCard = data => request({
  * responses: 
    - 200 | OK
  */
-export const getLanguageSelect = data => request({
+export const getLanguageSelect: ApiFunction = data => request({
   url: '/user/languageSelect',
   method: 'get',
   params: data
@@ -114,7 +115,7 @@ export const getLanguageSelect = data => request({
  * responses: 
    - 200 | OK
  */
-export const postOtherCardOcr = data => request({
+export const postOtherCardOcr: ApiFunction = data => request({
   url: '/user/otherCardOcr',
   method: 'post',
   data
@@ -149,7 +150,7 @@ export const postOtherCardOcr = data => request({
  * responses: 
    - 200 | OK
  */
-export const postSaveBasicInfo = data => request({
+export const postSaveBasicInfo: ApiFunction = data => request({
   url: '/user/saveBasicInfo',
   method: 'post',
   data
@@ -174,7 +175,7 @@ export const postSaveBasicInfo = data => request({
  * responses: 
    - 200 | OK
  */
-export const postSaveEmergencyContact = data => request({
+export const postSaveEmergencyContact: ApiFunction = data => request({
   url: '/user/saveEmergencyContact',
   method: 'post',
   data
@@ -194,7 +195,7 @@ export const postSaveEmergencyContact = data => request({
  * responses: 
    - 200 | OK
  */
-export const postSaveFaceImage = data => request({
+export const postSaveFaceImage: ApiFunction = data => request({
   url: '/user/saveFaceImage',
   method: 'post',
   data
@@ -214,7 +215,7 @@ export const postSaveFaceImage = data => request({
  * responses: 
    - 200 | OK
  */
-export const postUploadOtherCardBack = data => request({
+export const postUploadOtherCardBack: ApiFunction = data => request({
   url: '/user/upload/otherCard/back',
   method: 'post',
   data
@@ -234,7 +235,7 @@ export const postUploadOtherCardBack = data => request({
  * responses: 
    - 200 | OK
  */
-export const postUploadOtherCardFront = data => request({
+export const postUploadOtherCardFront: ApiFunction = data => request({
   url: '/user/upload/otherCard/front',
   method: 'post',
   data
@@ -253,7 +254,7 @@ export const postUploadOtherCardFront = data => request({
  * responses: 
    - 200 | OK
  */
-export const postUploadPanCard = data => request({
+export const postUploadPanCard: ApiFunction = data => request({
   url: '/user/upload/panCard',
   method: 'post',
   data

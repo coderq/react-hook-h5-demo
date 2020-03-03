@@ -8,7 +8,6 @@ const paths = require('./paths');
 delete require.cache[require.resolve('./paths')];
 
 const NODE_ENV = process.env.NODE_ENV;
-console.log('----NODE_ENV', NODE_ENV)
 if (!NODE_ENV) {
   throw new Error(
     'The NODE_ENV environment variable is required but was not specified.'
@@ -32,9 +31,7 @@ const dotenvFiles = [
 // https://github.com/motdotla/dotenv
 // https://github.com/motdotla/dotenv-expand
 dotenvFiles.forEach(dotenvFile => {
-  console.log('-----dotenvFile', dotenvFile)
   if (fs.existsSync(dotenvFile)) {
-    console.log('----exists', dotenvFile)
     require('dotenv-expand')(
       require('dotenv').config({
         path: dotenvFile,
@@ -42,7 +39,6 @@ dotenvFiles.forEach(dotenvFile => {
     );
   }
 });
-console.log('----dddd', process.env.APP_BASE_API)
 // We support resolving modules according to `NODE_PATH`.
 // This lets you use absolute paths in imports inside large monorepos:
 // https://github.com/facebook/create-react-app/issues/253.
@@ -68,7 +64,6 @@ function getClientEnvironment(publicUrl) {
     .filter(key => REACT_APP.test(key))
     .reduce(
       (env, key) => {
-        console.log('----key', key, process.env[key])
         env[key] = process.env[key];
         return env;
       },

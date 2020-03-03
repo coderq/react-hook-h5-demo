@@ -1,15 +1,26 @@
 {
   "translation": {
+    "auth": {
+      "form": {
+        "mobile": {
+          "label": "登陆/注册",
+          "placeholder": "手机号码"
+        },
+        "captcha": {
+          "label": "验证码",
+          "placeholder": "请输入验证码"
+        },
+        "agreement": {
+          "label": "已阅读并同意《{{href}}》",
+          "href": "借款服务协议"
+        },
+        "button": {
+          "next": "下一步"
+        }
+      }
+    },
     "logo": {
       "text": "DigiKredit"
-    },
-    "form": {
-      "label": {
-        "otp": "请输入OTP"
-      },
-      "placeholder": {
-        "otp": "请输入OTP"
-      }
     },
     "basic": {
       "confirm": "确定"
